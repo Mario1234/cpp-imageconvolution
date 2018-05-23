@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ConvolutionCpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ConvolutionCpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ConvolutionCpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="LibJpeg/jaricom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcarith.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jccoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jccolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcdctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jchuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcomapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jconfig.h" />
+		<Unit filename="LibJpeg/jcparam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcprepct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jcsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jctrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdarith.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdatadst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdatasrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdcoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdcolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdct.h" />
+		<Unit filename="LibJpeg/jddctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdhuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdmerge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdpostct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jdtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jerror.h" />
+		<Unit filename="LibJpeg/jfdctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jfdctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jfdctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jidctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jidctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jidctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jinclude.h" />
+		<Unit filename="LibJpeg/jmemmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jmemnobs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jmemsys.h" />
+		<Unit filename="LibJpeg/jmorecfg.h" />
+		<Unit filename="LibJpeg/jpegint.h" />
+		<Unit filename="LibJpeg/jpeglib.h" />
+		<Unit filename="LibJpeg/jquant1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jquant2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibJpeg/jversion.h" />
+		<Unit filename="arnold-schwarzenegger.jpg" />
+		<Unit filename="principal.cpp" />
+		<Unit filename="redim.jpg" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
